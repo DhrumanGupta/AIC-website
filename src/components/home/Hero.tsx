@@ -9,7 +9,7 @@ function Hero() {
       <div className="absolute w-full h-full bg-black"></div>
       <Image
         src={HeroImage}
-        layout="fill"
+        fill={true}
         alt="Ashoka University"
         className="object-cover opacity-35 z-10 blur-sm'"
       />
