@@ -36,7 +36,7 @@ const NavLink = ({
 
 function Navbar() {
   // const { mode, toggle } = useMode();
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(true);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -57,14 +57,25 @@ function Navbar() {
   }, [pathname]);
 
   return (
-    <nav className="flex z-20 top-0 p-6 w-full sticky backdrop-blur-sm md:px-20 lg:px-32">
-      <Link href="/" className="block w-10 h-10 md:w-12 md:h-12 relative">
-        <Image
-          src={Logo}
-          alt="Bodhi Capital Logo"
-          fill={true}
-          className="object-contain"
-        />
+    <nav className="flex z-50 top-0 p-6 w-full sticky backdrop-blur-sm md:px-20 lg:px-32">
+      <Link href="/" className="flex justify-center">
+        <div className=" w-10 h-10 md:w-12 md:h-12 relative">
+          <Image
+            src={Logo}
+            alt="Bodhi Capital Logo"
+            fill={true}
+            className="object-contain"
+          />
+        </div>
+
+        <h3
+          className={cn(
+            "ml-4 my-auto opacity-0 font-extrabold uppercase text-xl lg:text-2xl pt-2 duration-100",
+            isScrolled && "md:opacity-100"
+          )}
+        >
+          <span className="text-primary">Bodhi&nbsp;</span> Capital
+        </h3>
       </Link>
 
       <div className="flex ml-auto gap-x-4 md:gap-x-16">
