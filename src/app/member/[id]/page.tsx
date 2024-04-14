@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function MemberPage({ params }: { params: { slug: string } }) {
   const socials = [
@@ -9,7 +9,7 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
   ];
   return (
     <>
-      <div className='absolute w-full flex flex-col items-center justify-end h-[87vh]'>
+      <div className='absolute w-full flex flex-col items-center justify-end h-[87vh] z-[-1]'>
         <Image src='/cdown.svg' alt='Caret Down' width={32} height={32} />
       </div>
       <div className='flex flex-row justify-between mx-auto mt-20 h-[90vh]'>
@@ -30,9 +30,9 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
           {/* Social Icons */}
           <div className='mt-[2rem] flex justify-end gap-2 w-full'>
             {socials.map((social) => (
-              <a key={social.url} href={social.url} target='_blank' rel='noreferrer'>
+              <Link key={social.url} href={social.url} target='_blank' rel='noreferrer'>
                 <div className='w-[2.5rem] h-[2.5rem] bg-gray-300 rounded-md flex items-center justify-center'></div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
