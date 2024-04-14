@@ -9,34 +9,37 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
   ];
   return (
     <>
-      <div className='absolute w-full flex flex-col items-center justify-end h-[87vh] z-[-1]'>
-        <Image src='/cdown.svg' alt='Caret Down' width={32} height={32} />
+      <div className='absolute w-full flex flex-col items-center justify-end h-screen -mt-[15vh] z-[-1] bg-[radial-gradient(var(--tw-gradient-stops))] from-20% to-70% from-white to-neutral-100'>
+        <div className='w-8 h-8 2xl:w-12 2xl:h-12 mb-[3vh]'>
+          <Image src='/cdown.svg' alt='Caret Down' width={64} height={64} />
+        </div>
       </div>
-      <div className='flex flex-row justify-between mx-auto mt-20 h-[90vh]'>
-        <div className='ml-[10rem] w-[20rem] flex flex-col justify-end'>
-          <Image src='/person.png' alt={`Profile picture of ${params.slug}`} width={512} height={512} />
+      <div className='flex flex-row justify-between mx-auto h-[85vh] mt-[15vh] w-4/5 2xl:w-4/5'>
+        <div className='max-h-[80vh] lg:w-[25vw] flex flex-col self-end overflow-hidden'>
+          <Image src='/person.png' alt={`Profile picture of ${params.slug}`} width={512} height={512} className='' />
         </div>
 
-        <div className='flex flex-col w-[30rem] mr-[10rem] mt-[8rem] text-right justify-start'>
-          <p className='text-5xl font-[800] text-black'>JOHN DOE</p>
-          <p className='text-xl text-gray-800'>Investments Analyst (2023 - 2027)</p>
+        <div className='flex flex-col lg:w-[35vw] text-right justify-start mt-[7.5%] gap-1'>
+          <p className='text-xl lg:text-5xl 2xl:text-7xl font-[800] text-black'>JOHN DOE</p>
+          <p className='text-lg lg:text-2xl 2xl:text-4xl font-[400] text-gray-800'>Investments Analyst (2023 - 2027)</p>
 
           {/* About them */}
-          <p className='text-lg text-gray-800 mt-[1.5rem]'>
+          <p className='text-base lg:text-lg 2xl:text-2xl text-gray-800 mt-[1.5rem]'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* Social Icons */}
-          <div className='mt-[2rem] flex justify-end gap-2 w-full'>
+          <div className='mt-[2rem] flex justify-end lg:gap-4 2xl:gap-8 w-full'>
             {socials.map((social) => (
               <Link key={social.url} href={social.url} target='_blank' rel='noreferrer'>
-                <div className='w-[2.5rem] h-[2.5rem] bg-gray-300 rounded-md flex items-center justify-center'></div>
+                <div className='w-12 h-12 2xl:w-16 2xl:h-16 bg-gray-300 rounded-lg flex items-center justify-center'></div>
               </Link>
             ))}
           </div>
         </div>
       </div>
+      <div className='bg-neutral-100'></div>
     </>
   );
 }

@@ -17,9 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-neutral-50`}>
         <Navbar />
-        <div className='md:-mt-24 -mt-[5.5rem]'>{children}</div>
+        <div className='-mt-[15vh]'>{children}</div>
       </body>
     </html>
   );
