@@ -1,0 +1,67 @@
+[
+  {
+    "ID": "1",
+    "name": "Pranjal Misra",
+    "about_me": "I am an Economics and Finance Major and a Minor in China Studies at Ashoka University. I enjoy analysing the key drivers of industries and the moats of different players. I enjoy learning about differences in business practices across different regions and their effect on competitive advantage.",
+    "position": "Senior Analyst",
+    "linkedin": "https://www.linkedin.com/in/pranjal-misra-b45a33211/",
+    "website": "",
+    "top_stocks": ["Shilchar Technologies", "Jyoti Resins", "Voltamp Transformers", "Mahanagar Gas", "Indigo Paints"],
+    "internships": ["Kotak Mahindra Bank", "Arpwood Capital", "Spencer Stuart"],
+    "stock_pitch": ["Balaji Amines", "FIEM Industries", "Gujarat Themis Biosyn", "Indigo Paints"],
+    "book_review": ["The Dhandho Investor by Mohnish Pabrai"],
+    "photo": "10mOabwn3JKlQHqDlQYpkDiQPdMzp9Sf1"
+  },
+  {
+    "ID": "2",
+    "name": "Aadi Chintawar",
+    "about_me": "A driven finance professional at Bodhi Capital, I leverage my passion for learning and skills to analyse financial data and craft insightful investment pitches, aiming to make a positive impact within the industry.",
+    "position": "Senior Analyst",
+    "linkedin": "https://www.linkedin.com/in/aadichintawar/",
+    "website": "https://www.rushilgupta.tech/",
+    "top_stocks": ["CMS Infosystems", "Mold Tek Packaging", "Amara Raja Energy and Mobility", "Devyani International", "ITC Ltd"],
+    "internships": ["Taksh Asset Management Pvt Ltd"],
+    "stock_pitch": ["Mahindra and Mahindra", "CMS Infosystems", "Apcootex Industries"],
+    "book_review": ["The Dhando Investor", "The Joys of Compounding"],
+    "photo": "1JOZXMw-csYPJoKZN_WPJgclR2kpDNAIS"
+  },
+  {
+    "ID": "3",
+    "name": "Krish Sanghvi",
+    "about_me": "Hi I am Krish a student of the graduating batch of 24-25. I am also a HEC Paris exchange student where I took courses in business and finance. My interests lie in investing and watching tennis",
+    "position": "Senior Associate",
+    "linkedin": "https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav",
+    "website": "",
+    "top_stocks": ["HDFCBANK", "TITAN", "AARTIIND", "SUNPHARMA", "ASIANPAINT "],
+    "internships": ["KPMG", "JM Financial", "ProsperoTree LLP"],
+    "stock_pitch": ["Jubilant Food Works", "Granules India", "Gujarat Themis Biosyn"],
+    "book_review": ["Dhandho Investor", "Value Investing and Behavioural Finance by Parag Parikh "],
+    "photo": "15iVTKto8y6dspc0fi5Pf5MC4OY79NwMH"
+  },
+  {
+    "ID": "4",
+    "name": "Aditya Prakash",
+    "about_me": "Hey, I'm Aditya, currently studying Economics and Finance with an interest in investing and equity research. Recently I have also started exploring quantitative methods of analysing stock trends to understand market changes. Besides my interest in finance, I'm also a tennis player and a football aficionado.",
+    "position": "Junior Analyst",
+    "linkedin": "https://www.linkedin.com/in/aditya-prakash-6619652a0",
+    "website": "",
+    "top_stocks": ["Amararaja Batteries", "SBI", "GAIL"],
+    "internships": [""],
+    "stock_pitch": ["TCPL Packaging", "Narayana Hrudyalaya (got cancelled)"],
+    "book_review": ["Philip Fisher - Common Stocks and Uncommon Profits and Other Writings"],
+    "photo": "1OEu1ickX22tCMGPIjjHA7np6H5M_ENB9"
+  },
+  {
+    "ID": "5",
+    "name": "Malhar Sanghavi",
+    "about_me": "I am Malhar Sanghavi, a third year Economics and Finance major, I am deeply interested in analyzing businesses and I try and read as much as I can on companies and then create my own portfolio. I also love cricket and enjoy travelling.",
+    "position": "Senior Analyst",
+    "linkedin": "https://www.linkedin.com/in/malhar-sanghavi-733ba5179/",
+    "website": "",
+    "top_stocks": ["HDFC Bank", "Laurus Labs", "Manorama Industries", "Ethos", "Zydus Wellness"],
+    "internships": ["Radisson Goregaon", "Banyan Tree Advisors", "Value Quest Investment Advisors"],
+    "stock_pitch": ["Divis Labs", "Granules India", "Zydus Wellness"],
+    "book_review": ["Little book of common sense investing", "common stocks and uncommon profits "],
+    "photo": "1rbGHZtmECTSwA9qjBZXQVeQUFoxGVFef"
+  }
+]
