@@ -1,6 +1,5 @@
-import React from "react";
-import Image from "next/image";
 import HeroImage from "@/../public/hero.png";
+import Image from "next/image";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 function Hero() {
@@ -14,11 +13,11 @@ function Hero() {
         className="object-cover opacity-35 z-10 blur-sm'"
       />
       <div className="z-20 text-white w-full h-full px-8 absolute flex flex-col items-center md:items-start justify-center md:pl-32">
-        <h1 className="font-extrabold text-6xl lg:text-8xl md:max-w-2xl uppercase text-center md:text-left md:!leading-[1.1]">
+        <h1 className="font-extrabold text-6xl lg:text-7xl md:max-w-lg uppercase text-center md:text-left md:!leading-[1.1]">
           <span className="text-primary">Bodhi</span> Capital
         </h1>
 
-        <h3 className="text-center mt-8 text-xl md:text-2xl md:text-left lg:text-3xl lg:max-w-2xl font-medium">
+        <h3 className="text-center mt-4 text-xl md:text-xl md:text-left lg:text-2xl lg:max-w-2xl font-medium">
           INDIA&apos;S FIRST UNDERGRADUATE INVESTMENT FUND
         </h3>
       </div>

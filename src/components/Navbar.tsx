@@ -13,8 +13,8 @@ type TNavLink = {
 };
 
 const LINKS: TNavLink[] = [
-  { href: "/member", label: "Members" },
-  { href: "/pitches", label: "Pitches" },
+  { href: "/members", label: "Members" },
+  // { href: "/pitches", label: "Pitches" },
   { href: "/resources", label: "Resources" },
 ];
 
@@ -26,7 +26,7 @@ const NavLink = ({
   <Link
     href={href}
     className={cn(
-      "my-auto font-semibold md:text-lg",
+      "my-auto font-semibold md:text-lg'",
       scrolled ? "text-black" : "text-white"
     )}
   >
@@ -35,9 +35,10 @@ const NavLink = ({
 );
 
 function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [scrolledPast, setScrolledPast] = useState(false);
   const pathname = usePathname();
+
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [scrolledPast, setScrolledPast] = useState(pathname !== "/");
 
   useEffect(() => {
     if (!pathname || pathname !== "/") {
@@ -47,8 +48,8 @@ function Navbar() {
     }
 
     const handleScroll = () => {
-      const scrolled = window.scrollY > window.innerHeight - 25; // 100vh
-      const scrolledPast = window.scrollY > window.innerHeight - 5; // 100vh
+      const scrolled = window.scrollY > window.innerHeight - 30; // 100vh
+      const scrolledPast = window.scrollY > window.innerHeight; // 100vh
 
       setScrolledPast(scrolledPast);
 
@@ -65,11 +66,10 @@ function Navbar() {
   }, [pathname]);
 
   return (
-    // <nav className='flex z-50 top-0 p-6 w-full sticky backdrop-blur-sm md:px-20 lg:px-32'>
     <nav
       className={cn(
-        "flex z-50 top-0 w-full sticky md:px-20 lg:px-32 items-center transition-all duration-300",
-        scrolledPast ? "h-[10vh] bg-white" : "h-[15vh] backdrop-blur-sm"
+        "flex z-50 top-0 w-full sticky md:px-16 px-4 lg:px-24 items-center transition-all duration-500",
+        scrolledPast ? "h-[10vh] bg-white" : "h-[12vh] backdrop-blur-sm"
       )}
     >
       <Link href="/" className="flex justify-center">
@@ -84,8 +84,8 @@ function Navbar() {
 
         <h3
           className={cn(
-            "ml-4 my-auto opacity-0 font-extrabold uppercase text-xl lg:text-2xl duration-100 text-black",
-            isScrolled && "md:opacity-100"
+            "ml-4 my-auto hidden opacity-0 font-extrabold uppercase text-xl lg:text-2xl duration-100 text-black",
+            isScrolled && "md:opacity-100 md:block"
           )}
         >
           <span className="text-primary">Bodhi&nbsp;</span> Capital

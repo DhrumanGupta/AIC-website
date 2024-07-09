@@ -18,9 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} `}>
+      <body className={inter.className}>
         <Navbar />
-        <div className="-mt-[15vh]">{children}</div>
+        <div className="-mt-[10vh]">{children}</div>
+        <div className="py-8" />
       </body>
     </html>
   );
