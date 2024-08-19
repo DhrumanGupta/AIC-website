@@ -93,7 +93,7 @@ const Page = async ({ params }: { params: any }) => {
   return (
     <section className="mx-auto max-w-[70ch]">
       {/* <SchemaData data={jsonLd} /> */}
-      <article className="prose prose-base prose-hr:my-8 prose-p:text-lg prose-li:text-lg max-w-[70ch] lg:prose-xl prose-h1:text-3xl prose-h2:text-xl prose-headings:font-semibold prose-headings:text-gray-700 prose-p:leading-7 prose-p:font-[300] prose-li:font-[300]">
+      <article className="prose prose-base prose-hr:my-8 prose-p:text-lg prose-li:text-lg max-w-[70ch] lg:prose-xl prose-h1:text-3xl prose-h2:text-xl prose-headings:font-semibold prose-headings:text-gray-800 prose-p:leading-7 prose-p:font-[300] prose-li:font-[300]">
         <h1 className="!mb-0">{meta.title}</h1>
 
         <p className="!mt-1 font-light text-[1.1rem] text-gray-500">
@@ -103,7 +103,7 @@ const Page = async ({ params }: { params: any }) => {
 
         <hr className="!mb-4" />
         <div className="flex">
-          <button className="!m-0 !ml-auto text-sm rounded-full border-gray-300 text-gray-400 border-[1px] py-2 px-4">
+          <button className="!m-0 !ml-auto text-sm rounded-full border-gray-300 text-gray-500 border-[1px] py-2 px-4">
             Share
           </button>
         </div>
