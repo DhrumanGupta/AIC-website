@@ -1,14 +1,14 @@
-import NewsletterImage from '@/components/NewsletterImage';
+import NewsletterImage from "@/components/NewsletterImage";
 import fs from "fs";
 import { compileMDX } from "next-mdx-remote/rsc";
 import path from "path";
 
 const rootDirectory = `${process.cwd()}/content`;
 
-export const getPostBySlug = async <T>(
+export async function getPostBySlug<T>(
   slug: string,
   directory: string
-): Promise<{ meta?: T; content: any }> => {
+): Promise<{ meta?: T; content: any }> {
   const realSlug = slug.replace(/\.mdx$/, "");
   const dirPath =
     directory.length > 0 ? path.join(rootDirectory, directory) : rootDirectory;
@@ -23,8 +23,8 @@ export const getPostBySlug = async <T>(
   const { frontmatter, content } = await compileMDX({
     source: fileContent,
     options: { parseFrontmatter: true },
-    components: { 
-      img: (props) => <NewsletterImage  {...props} slug={realSlug} />,
+    components: {
+      img: (props) => <NewsletterImage {...props} slug={realSlug} />,
     },
   });
 
@@ -35,7 +35,7 @@ export const getPostBySlug = async <T>(
   }
 
   return { meta: { ...frontmatter, slug: realSlug } as T, content };
-};
+}
 
 export const getAllPostsMeta = async (directory: string) => {
   const dir = path.join(rootDirectory, directory);
