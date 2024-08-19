@@ -23,6 +23,7 @@ const config: Config = {
     function ({ addVariant, addComponents }) {
       addVariant("child", "& > *");
     },
+    require("@tailwindcss/typography"),
   ],
 };
 export default config;

@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import { cn } from "@/lib/cn";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn(inter.className)}>
         <Navbar />
         <div className="-mt-[10vh]">{children}</div>
         <div className="py-8" />
