@@ -32,10 +32,10 @@ function Page() {
                 <div className="bg-g'ray-200 rounded-md hover:cursor-pointer">
                   <div className="aspect-square relative overflow-hidden rounded-3xl' rounded-full rounded-'b-none">
                     <Image
-                      src={getGoogleDriveImageLink(member.photo, 400)}
+                      src={getGoogleDriveImageLink(member.photo, 450)}
                       alt={`Profile picture of ${member.name}`}
                       fill={true}
-                      blurDataURL={getGoogleDriveImageLink(member.photo, 400)}
+                      blurDataURL={getGoogleDriveImageLink(member.photo, 100)}
                       className="object-cover object-top"
                     />
                   </div>
