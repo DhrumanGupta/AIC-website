@@ -15,11 +15,11 @@ type TNavLink = {
 const LINKS: TNavLink[] = [
   { href: "/members", label: "Members" },
   // { href: "/pitches", label: "Pitches" },
-  // { href: '/resources', label: 'Resources' },
-  {
-    href: "/newsletters",
-    label: "Newsletter",
-  },
+  { href: "/resources", label: "Resources" },
+  // {
+  //   href: "/newsletters",
+  //   label: "Newsletter",
+  // },
 ];
 
 const NavLink = ({
