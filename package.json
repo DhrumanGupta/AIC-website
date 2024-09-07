@@ -13,6 +13,7 @@
     "@plaiceholder/next": "^3.0.0",
     "@tailwindcss/typography": "^0.5.14",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.5.4",
     "moment": "^2.30.1",
     "next": "14.1.4",
     "next-mdx-remote": "^5.0.0",

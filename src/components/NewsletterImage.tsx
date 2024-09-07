@@ -1,6 +1,6 @@
 const NewsletterImage = ({ children, slug, src, alt, ...props }: any) => {
   const realSrc = `/newsletters/${slug}/${src.substring(2, src.length)}`;
-  console.log(realSrc);
+
   return (
     <div className=" w-auto h-auto relative rounded-lg -mt-8 -mb-8 overflow-hidden">
       <img
