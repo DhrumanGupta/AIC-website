@@ -9,16 +9,22 @@ const s3Client = new S3Client({
   },
 });
 
-export async function listR2Files() {
+export interface File {
+  name: string;
+  url: string;
+}
+
+export async function listR2Files(path: string): Promise<File[]> {
   const command = new ListObjectsV2Command({
     Bucket: process.env.CLOUDFLARE_R2_BUCKET_NAME,
+    Prefix: path,
   });
 
   try {
     const response = await s3Client.send(command);
     return (
       response.Contents?.map((x) => ({
-        name: x.Key!,
+        name: x.Key!.replace(path + "/", "").replace(".pdf", ""),
         url: `${process.env.CLOUDFLARE_R2_URL}/${x.Key!}`,
       })) || []
     );

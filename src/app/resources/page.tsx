@@ -1,21 +1,17 @@
-import FileView from "@/components/FileView";
-import { listR2Files } from "@/lib/r2";
+import Pitches from "./Pitches";
 
 export const revalidate = 3600; // Revalidate every hour
 
-async function ResourcesPage() {
-  const files = await listR2Files();
-
+export default async function ResourcesPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-8 text-center">Pitches</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {files.map((file) => (
-          <FileView key={file.name} name={file.name} url={file.url} />
-        ))}
-      </div>
+      <h1 className="text-4xl font-bold mb-4">Resources</h1>
+      <p className="text-gray-700 mb-8 max-w-3xl">
+        At AIC, we curate valuable resources to foster financial literacy.
+        Explore our collection of pitch decks, research reports, and educational
+        materials.
+      </p>
+      <Pitches />
     </div>
   );
 }
-
-export default ResourcesPage;
