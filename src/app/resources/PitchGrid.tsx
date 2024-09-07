@@ -9,7 +9,6 @@ import {
   FaFileExcel,
   FaFilePdf,
 } from "react-icons/fa";
-import { IoMdClose } from "react-icons/io";
 
 interface PitchGridProps {
   files: File[];
@@ -32,10 +31,16 @@ const PitchGrid: React.FC<PitchGridProps> = ({ files }) => {
         {files.map((file) => (
           <div
             key={file.name}
-            className="bg-white p-4 rounded-lg shadow cursor-pointer hover:bg-gray-100 transition-colors relative flex items-center justify-between"
-            onClick={() => setSelectedFile(file)}
+            className="bg-white p-4 rounded-lg shadow hover:bg-gray-100 transition-colors relative flex items-center justify-between hover:cursor-pointer"
+            onClick={() => {
+              if (window.innerWidth > 768) {
+                setSelectedFile(file);
+              } else {
+                window.open(file.url, "_blank");
+              }
+            }}
           >
-            <div className="flex items-center">
+            <div className="flex items-center flex-grow">
               {getFileIcon(file.url)}
               <h3 className="text-sm font-medium text-gray-800 truncate">
                 {file.name
@@ -49,11 +54,11 @@ const PitchGrid: React.FC<PitchGridProps> = ({ files }) => {
               href={file.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:block"
+              className="md:block hidden text-gray-500 hover:text-blue-500 transition-colors"
               onClick={(e) => e.stopPropagation()}
               aria-label={`Open ${file.name} in new tab`}
             >
-              <FaExternalLinkAlt className="text-gray-500 hover:text-blue-500 transition-colors" />
+              <FaExternalLinkAlt />
             </a>
           </div>
         ))}
@@ -62,13 +67,14 @@ const PitchGrid: React.FC<PitchGridProps> = ({ files }) => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg w-11/12 h-5/6 max-w-4xl flex flex-col">
             <div className="flex justify-between items-center p-4 border-b">
-              <h2 className="text-xl font-bold">{selectedFile.name}</h2>
+              <h2 className="text-xl font-bold truncate">
+                {selectedFile.name}
+              </h2>
               <button
                 onClick={() => setSelectedFile(null)}
-                className="text-2xl"
-                aria-label="Close PDF viewer"
+                className="text-gray-500 hover:text-gray-700"
               >
-                <IoMdClose />
+                Close
               </button>
             </div>
             <div className="flex-grow p-4">
