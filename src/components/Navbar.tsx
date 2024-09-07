@@ -100,6 +100,18 @@ function Navbar() {
         {LINKS.map((link) => (
           <NavLink scrolled={isScrolled} key={link.href} {...link} />
         ))}
+
+        <Link
+          href="https://forms.gle/vyjJkzL236AcJf3j6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={cn(
+            "px-4 py-2 rounded-md font-semibold text-white bg-primary hover:bg-primary-dark transition-colors",
+            isScrolled ? "bg-primary" : "bg-white/20 hover:bg-white/30"
+          )}
+        >
+          Join Now
+        </Link>
       </div>
     </nav>
   );
