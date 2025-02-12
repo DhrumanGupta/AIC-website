@@ -3,7 +3,12 @@
 import PDFViewer from "@/components/PDFViewer";
 import { File } from "@/lib/r2";
 import React, { useState } from "react";
-import { FaFileAlt, FaFileExcel, FaFilePdf } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaFileAlt,
+  FaFileExcel,
+  FaFilePdf,
+} from "react-icons/fa";
 
 interface PitchGridProps {
   files: File[];
@@ -64,6 +69,17 @@ const PitchGrid: React.FC<PitchGridProps> = ({ files }) => {
               <h2 className="text-xl font-bold truncate text-wrap">
                 {selectedFile.name}
               </h2>
+
+              <a
+                href={selectedFile.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="md:block hidden text-gray-500 hover:text-blue-500 transition-colors ml-auto mr-4"
+                onClick={(e) => e.stopPropagation()}
+                aria-label={`Open ${selectedFile.name} in new tab`}
+              >
+                <FaExternalLinkAlt />
+              </a>
               <button
                 onClick={() => setSelectedFile(null)}
                 className="text-gray-500 hover:text-gray-700"
