@@ -9,6 +9,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { HiMenu, HiX, HiChevronDown } from "react-icons/hi"; // Add this import for better icons
 
+
+
 type TNavLink = {
   href: string;
   label: string;
