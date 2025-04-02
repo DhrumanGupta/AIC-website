@@ -63,6 +63,7 @@ export default async function MemberPage(props: {
               src={getGoogleDriveImageLink(member.photo, 720)}
               alt={`Profile picture of ${params.id}`}
               fill={true}
+              className="object-cover object-top"
             />
           </div>
           {/* <Image src='/person.png' alt={`Profile picture of ${params.id}`} width={256} height={256} layout='responsive' /> */}
