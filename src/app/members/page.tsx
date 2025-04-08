@@ -31,11 +31,11 @@ function Page() {
               >
                 <div className="bg-g'ray-200 rounded-md hover:cursor-pointer">
                   <div className="aspect-square relative overflow-hidden rounded-3xl' rounded-full rounded-'b-none">
-                    <Image
+                    <img
                       src={getGoogleDriveImageLink(member.photo, 720)}
                       alt={`Profile picture of ${member.name}`}
-                      fill={true}
-                      className="object-cover object-top"
+                      className="object-cover object-top h-full w-full"
+                      loading="lazy"
                     />
                   </div>
 

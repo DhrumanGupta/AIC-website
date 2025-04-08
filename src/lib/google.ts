@@ -1,5 +1,5 @@
 export function getGoogleDriveImageLink(id: string, size: number = 20) {
-  return `https://lh3.googleusercontent.com/d/${id}=s${size}`;
+  return `https://images.weserv.nl/?url=https://lh3.googleusercontent.com/d/${id}=s${size}`;
 }
 
 // export function getGoogleDriveImageLink(id: string, size: number = 20) {

@@ -30,13 +30,11 @@ function Page() {
             className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
           >
             <div className="aspect-square relative overflow-hidden rounded-t-xl">
-              <Image
+              <img
                 src={getGoogleDriveImageLink(member.Photo, 450)}
                 alt={`Profile picture of ${member.Name}`}
-                fill={true}
-                placeholder="blur"
-                blurDataURL={getGoogleDriveImageLink(member.Photo, 100)}
-                className="object-cover object-top hover:scale-105 transition-transform duration-300"
+                className="object-cover h-full w-full object-top hover:scale-105 transition-transform duration-300"
+                loading="lazy"
               />
             </div>
 

@@ -59,11 +59,11 @@ export default async function MemberPage(props: {
       <div className="flex flex-col md:flex-row md:justify-between mx-auto h-[85vh] mt-[10vh] w-full">
         <div className="max-h-[85vh] mx-auto md:m-0 w-[60vw] sm:w-[40vw] md:w-64 lg:w-80 flex flex-col self-end overflow-hidden rounded-t-md md:mb-8 md:rounded-md">
           <div className="relative w-[60vw] h-[60vw] sm:w-[40vw] sm:h-[40vw] md:w-64 md:h-64 lg:w-80 lg:h-80">
-            <Image
+            <img
               src={getGoogleDriveImageLink(member.photo, 720)}
               alt={`Profile picture of ${params.id}`}
-              fill={true}
-              className="object-cover object-top"
+              className="object-cover object-top w-full h-full"
+              loading="lazy"
             />
           </div>
           {/* <Image src='/person.png' alt={`Profile picture of ${params.id}`} width={256} height={256} layout='responsive' /> */}
