@@ -10,7 +10,6 @@ const nextConfig = {
         port: "",
       },
     ],
-    minimumCacheTTL: 624960,
   },
   webpack: (config) => {
     config.resolve.alias.canvas = false;
