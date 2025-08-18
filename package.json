@@ -42,6 +42,11 @@
     "overrides": {
       "@types/react": "19.1.0",
       "@types/react-dom": "19.1.0"
-    }
-  }
+    },
+    "onlyBuiltDependencies": [
+      "canvas",
+      "sharp"
+    ]
+  },
+  "packageManager": "pnpm@10.14.0"
 }
