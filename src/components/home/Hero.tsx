@@ -10,7 +10,7 @@ function Hero() {
         src={HeroImage}
         fill={true}
         alt="Ashoka University"
-        className="object-cover opacity-35 z-10 blur-sm'"
+        className="object-cover opacity-35 z-10 blur-sm"
       />
       <div className="z-20 text-white w-full h-full px-8 absolute flex flex-col items-center md:items-start justify-center md:pl-32">
         <h1 className="font-extrabold text-6xl lg:text-7xl md:max-w-lg uppercase text-center md:text-left md:!leading-[1.1]">

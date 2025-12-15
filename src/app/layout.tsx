@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className)}>
         <Navbar />
-        <div className="-mt-[10vh]">{children}</div>
+        <div className="-mt-[12vh]">{children}</div>
         <div className="py-8" />
         <Footer />
         <Analytics />
