@@ -40,7 +40,7 @@ export default async function MemberPage({
     { name: "Website", url: member.website },
   ];
   return (
-    <main className="max-w-6xl lg:max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20 mt-10">
+    <main className="max-w-6xl lg:max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20">
       <section className="grid gap-10 md:grid-cols-[280px_1fr] lg:grid-cols-[320px_1fr] items-start">
         <div className="w-full max-w-sm mx-auto md:mx-0">
           <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
