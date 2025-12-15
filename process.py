@@ -1,350 +1,55 @@
-[
-  {
-    "Timestamp": "12/28/2024 16:03:25",
-    "Email Address": "agsatvik13@gmail.com",
-    "Name": "Satvik Agarwal",
-    "LinkedIn Profile": "https://www.linkedin.com/in/satvikagarwal22?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2021-2022",
-    "Year of Graduation (Batch - ex: 2021-24)": "2019-22",
-    "Current Company you work at": "Razorpay",
-    "Designation at Current Company": "Investments and M&A",
-    "Photo": "1EXx7ZdtXGIQaPQ8tDxjd6f7Ck_mleaca"
-  },
-  {
-    "Timestamp": "12/29/2024 20:52:16",
-    "Email Address": "samveg.bhansali17@gmail.com",
-    "Name": "Samveg Bhansali",
-    "LinkedIn Profile": "http://linkedin.com/in/samveg-bhansali",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2024",
-    "Current Company you work at": "Finvesta Opportunities Fund",
-    "Designation at Current Company": "CIO",
-    "Photo": "1Xlnb4122W7wuqTJpHeEQcC8EejqLkKKo"
-  },
-  {
-    "Timestamp": "12/30/2024 12:06:12",
-    "Email Address": "ben.maria1999@gmail.com",
-    "Name": "Maria Ben",
-    "LinkedIn Profile": "https://www.linkedin.com/in/mariabenn/",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2019-2020",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020",
-    "Current Company you work at": "Omidyar Network India",
-    "Designation at Current Company": "Investment Analyst",
-    "Photo": "1h6rwmyfh5R0zCP_Ja_FWGx3z25-lUS8f"
-  },
-  {
-    "Timestamp": "12/30/2024 13:40:33",
-    "Email Address": "tmohta11@gmail.com",
-    "Name": "Tanmaiy Mohta",
-    "LinkedIn Profile": "http://linkedin.com/in/tanmaiy-mohta-05960521b",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2024",
-    "Current Company you work at": "Locus Investment Group",
-    "Designation at Current Company": "Investment Analyst",
-    "Photo": "1IfaY_Mkz71Q8Y04mJfVbTSFlviSaSgvF"
-  },
-  {
-    "Timestamp": "12/30/2024 15:48:04",
-    "Email Address": "deeshitasoin2003@gmail.com",
-    "Name": "Deeshita Soin",
-    "LinkedIn Profile": "https://www.linkedin.com/in/deeshita-soin-a4b8a91a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2023",
-    "Current Company you work at": "Samagra",
-    "Designation at Current Company": "Associate",
-    "Photo": "1e6Bs_Mpk8lIdIie8WnAZK9qJCJvOoDx8"
-  },
-  {
-    "Timestamp": "12/30/2024 16:08:37",
-    "Email Address": "amish.agrawal@alumni.ashoka.edu.in",
-    "Name": "Amish Agrawal",
-    "LinkedIn Profile": "https://www.linkedin.com/in/amishagrawal2/",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2023",
-    "Current Company you work at": "India Alternatives",
-    "Designation at Current Company": "Analyst",
-    "Photo": "1QloBl0P7F2vFQlIjyPS2FsqrfqgSByLj"
-  },
-  {
-    "Timestamp": "12/30/2024 18:01:05",
-    "Email Address": "saumin.agarwal@gmail.com",
-    "Name": "Saumin Agarwal",
-    "LinkedIn Profile": "https://www.linkedin.com/in/saumin01/",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2019-2020",
-    "Year of Graduation (Batch - ex: 2021-24)": "2023",
-    "Current Company you work at": "Deloitte Consulting",
-    "Designation at Current Company": "Analyst (Supply Chain Strategy)",
-    "Photo": "1SL7q65MzfTsvmIC0FFqQEcVScJ7Yvc-E"
-  },
-  {
-    "Timestamp": "12/30/2024 19:08:00",
-    "Email Address": "george.dheep@gmail.com",
-    "Name": "Dheep George",
-    "LinkedIn Profile": "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2023 (ASP 2024)",
-    "Current Company you work at": "Beas Capital",
-    "Designation at Current Company": "Investment Analyst",
-    "Photo": "10JjJrcA4SRCiJ6pvQVO-rTwjOWQOgIhk"
-  },
-  {
-    "Timestamp": "12/30/2024 22:39:17",
-    "Email Address": "saahasjain10@gmail.com",
-    "Name": "Saahas Jain",
-    "LinkedIn Profile": "https://www.google.com/gasearch?q=saahas%20jain%20linkedin&source=sh/x/gs/m2/5",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2023",
-    "Current Company you work at": "WhiteOak Capital",
-    "Designation at Current Company": "Analyst",
-    "Photo": "1R2mC_bVIehUfzkHvwJkAcMt22ZU7Q84m"
-  },
-  {
-    "Timestamp": "12/30/2024 23:11:07",
-    "Email Address": "mehulsingla2001@gmail.com",
-    "Name": "Mehul Singla",
-    "LinkedIn Profile": "N/A (I actually lost it and haven’t managed to recover yet)",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2020-2021",
-    "Year of Graduation (Batch - ex: 2021-24)": "2019-2023",
-    "Current Company you work at": "Indus Insights",
-    "Designation at Current Company": "Associate",
-    "Photo": "1MkWwmGJzzhizhL0iIBUA-qTGilTebIJ-"
-  },
-  {
-    "Timestamp": "12/31/2024 1:37:05",
-    "Email Address": "dheeraj.pr@alumni.ashoka.edu.in",
-    "Name": "Dheeraj P R",
-    "LinkedIn Profile": "linkedin.com/in/dheeraj-p-r-3b35b8181",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2023-24",
-    "Current Company you work at": "HSBC",
-    "Designation at Current Company": "Management Trainee",
-    "Photo": "1HG5aOAb7qPHuiUlyAUjSYcuS10pkDxAS"
-  },
-  {
-    "Timestamp": "12/31/2024 1:42:23",
-    "Email Address": "arnavjain433@gmail.com",
-    "Name": "Arnav Jain",
-    "LinkedIn Profile": "https://www.linkedin.com/in/arnav-jain-98389b187/",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2021-2022",
-    "Year of Graduation (Batch - ex: 2021-24)": "2018-2022",
-    "Current Company you work at": "Deutsche Bank",
-    "Designation at Current Company": "Associate",
-    "Photo": "1UleGcFR3JaU84qnaX2VCiEl-_fSUv7s1"
-  },
-  {
-    "Timestamp": "12/31/2024 11:40:13",
-    "Email Address": "sadeevmufc@gmail.com",
-    "Name": "Sadeev",
-    "LinkedIn Profile": "https://www.linkedin.com/in/sadeev-s-a285a2195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2021-2022",
-    "Year of Graduation (Batch - ex: 2021-24)": "2022",
-    "Current Company you work at": "Steinberg India Advisors",
-    "Designation at Current Company": "Investment Analyst",
-    "Photo": "1LL8ehPvCsVLbPhsNlyiz3cxxOEbvlPSm"
-  },
-  {
-    "Timestamp": "12/31/2024 17:03:18",
-    "Email Address": "divyasuchak08@gmail.com",
-    "Name": "Divya Suchak",
-    "LinkedIn Profile": "https://www.linkedin.com/in/divya-suchak/",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2020-2021",
-    "Year of Graduation (Batch - ex: 2021-24)": "2023",
-    "Current Company you work at": "Prime Securities Limited",
-    "Designation at Current Company": "Investment Banking Manager",
-    "Photo": "1hNuenFG57QeI5HH85HnUDCVZ5TZLh6PG"
-  },
-  {
-    "Timestamp": "1/1/2025 15:42:15",
-    "Email Address": "devangdagra@gmail.com",
-    "Name": "Devang Dagra",
-    "LinkedIn Profile": "https://www.linkedin.com/in/devang-dagra-218888193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2018-2019",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020",
-    "Current Company you work at": "Oxane Partners",
-    "Designation at Current Company": "Senior Analyst",
-    "Photo": "15aVV5XyHw4XhJvCX7q2cVcCeRFanFBeH"
-  },
-  {
-    "Timestamp": "1/2/2025 11:08:57",
-    "Email Address": "samyukt14@gmail.com",
-    "Name": "Samyukt Sriram",
-    "LinkedIn Profile": "https://www.linkedin.com/in/samyukt-sriram-276b3b142/",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2024",
-    "Current Company you work at": "NA",
-    "Designation at Current Company": "NA",
-    "Photo": "1-XulwUl_lZbkhIJ47wLicjDqon6AQ7IG"
-  },
-  {
-    "Timestamp": "1/2/2025 16:53:00",
-    "Email Address": "ashujain1801@gmail.com",
-    "Name": "Ashu Jain",
-    "LinkedIn Profile": "https://www.linkedin.com/in/jainashu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2021-2022",
-    "Year of Graduation (Batch - ex: 2021-24)": "2019-22",
-    "Current Company you work at": "Indus Insights",
-    "Designation at Current Company": "Senior Associate",
-    "Photo": "1QbylhLvTd8HNd7NbiYQ5oAUYX06lYb5q"
-  },
-  {
-    "Timestamp": "1/2/2025 21:36:46",
-    "Email Address": "kralshruti2712@gmail.com",
-    "Name": "Shruti Kraleti",
-    "LinkedIn Profile": "http://linkedin.com/in/shruti-kraleti-b1a999203",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2024",
-    "Current Company you work at": "Deloitte USI",
-    "Designation at Current Company": "Business analyst",
-    "Photo": "1IzkIwnUbhBbE_G8oi3xTyKLPGm5uk5t0"
-  },
-  {
-    "Timestamp": "1/3/2025 9:33:15",
-    "Email Address": "agnidh@gmail.com",
-    "Name": "Agnidh Ghosh",
-    "LinkedIn Profile": "https://www.linkedin.com/in/agnidh-ghosh-a439551b7/",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "ASP 24",
-    "Current Company you work at": "Samagra Governance",
-    "Designation at Current Company": "Associate",
-    "Photo": "1FXuvwo2NJJSkCbr3nxBJLGBGtJX3wAH5"
-  },
-  {
-    "Timestamp": "1/3/2025 12:26:16",
-    "Email Address": "hardik.arora@alumni.ashoka.edu.in",
-    "Name": "Hardik Arora",
-    "LinkedIn Profile": "https://www.linkedin.com/in/hardik-arora-756770160?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2017-2018",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020",
-    "Current Company you work at": "PwC",
-    "Designation at Current Company": "Investment Banking Senior Analyst",
-    "Photo": "15AGx0sBxsrJfVy8si6wT-6KMOEBSrW84"
-  },
-  {
-    "Timestamp": "1/3/2025 14:25:17",
-    "Email Address": "zalanigarvit@gmail.com",
-    "Name": "Garvit Zalani",
-    "LinkedIn Profile": "bit.ly/garvitzalani",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2021-2022",
-    "Year of Graduation (Batch - ex: 2021-24)": "UG2022/ASP2023",
-    "Current Company you work at": "Pravega Ventures",
-    "Designation at Current Company": "Investments Analyst",
-    "Photo": "1-RyB0bTC0_gsQOhb_nAywUTRX30lGRRH"
-  },
-  {
-    "Timestamp": "1/3/2025 16:47:08",
-    "Email Address": "shivi.mohan@alumni.ashoka.edu.in",
-    "Name": "Shivi Mohan",
-    "LinkedIn Profile": "www.linkedin.com/in/shivi-mohan",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "UG23, ASP24",
-    "Current Company you work at": "EY-Parthenon",
-    "Designation at Current Company": "Senior Analyst",
-    "Photo": "1NL2DSyaizcT1njgTJ15gWqiyYQcz1pjY"
-  },
-  {
-    "Timestamp": "1/3/2025 18:47:02",
-    "Email Address": "ronicabajaj@gmail.com",
-    "Name": "Ronica Bajaj",
-    "LinkedIn Profile": "http://linkedin.com/in/ronicabajaj",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2024",
-    "Current Company you work at": "Kearney",
-    "Designation at Current Company": "Business Analyst",
-    "Photo": "1DS3Y1dSlH-XQLrYCpKEKISiDgLN2Rvhg"
-  },
-  {
-    "Timestamp": "1/3/2025 21:22:50",
-    "Email Address": "rohanjaipur123@gmail.com",
-    "Name": "Rohan Gupta",
-    "LinkedIn Profile": "https://www.linkedin.com/in/guptarohan25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "Last Position at Bodhi Capital": "Analyst",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2021-2024",
-    "Current Company you work at": "D.E Shaw India Pvt Ltd.",
-    "Designation at Current Company": "Financial Research Associate",
-    "Photo": "1YoeD7rPmzU3t_4wCjXAsnJ1gXDEji2rm"
-  },
-  {
-    "Timestamp": "1/4/2025 1:24:10",
-    "Email Address": "aryaman.agarwal1@alumni.ashoka.edu.in",
-    "Name": "Aryaman Agarwal",
-    "LinkedIn Profile": "https://www.linkedin.com/in/aryamanagarwal",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2023",
-    "Current Company you work at": "Indus insights",
-    "Designation at Current Company": "Associate",
-    "Photo": "1N_GgDU7hduZQoeNw7G8c2r0jU_gpS5qB"
-  },
-  {
-    "Timestamp": "1/5/2025 18:06:21",
-    "Email Address": "yashesswin.yvrs@alumni.ashoka.edu.in",
-    "Name": "Yashesswin YVRS",
-    "LinkedIn Profile": "https://www.linkedin.com/in/yashesswin-yvrs",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2021-24",
-    "Current Company you work at": "Zinnov Management Consulting",
-    "Designation at Current Company": "Associate Consultant, M&A and Investment Banking",
-    "Photo": "1l3z5YqCCTwUZaM8qhQ783KATXZQinQjx"
-  },
-  {
-    "Timestamp": "1/6/2025 9:45:01",
-    "Email Address": "amanhimatsingka50@gmail.com",
-    "Name": "Aman Himatsingka",
-    "LinkedIn Profile": "https://www.linkedin.com/in/aman-himatsingka-0629aa206/",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2022-2023",
-    "Year of Graduation (Batch - ex: 2021-24)": "2020-2023",
-    "Current Company you work at": "Bain and Company",
-    "Designation at Current Company": "Associate Consultant",
-    "Photo": "1--_hTlOwT-JJLTVKOzpEnvwTZqB2u6Jl"
-  },
-  {
-    "Timestamp": "1/6/2025 18:39:08",
-    "Email Address": "rishikaj2026@email.iimcal.ac.in",
-    "Name": "Rishika Jain",
-    "LinkedIn Profile": "www.linkedin.com/in/rishika-jain-3b1aa2230",
-    "Last Position at Bodhi Capital": "Senior Analyst",
-    "Year when position was held": "2023-2024",
-    "Year of Graduation (Batch - ex: 2021-24)": "2021-2024",
-    "Current Company you work at": "MBA (IIM Calcutta), Summer Intern @ Bain",
-    "Designation at Current Company": "N/A",
-    "Photo": "1bdtjdN0W91iAg1yN6hsXDy8WXlGRw9IY"
-  },
-  {
-    "Timestamp": "1/6/2025 20:00:00",
-    "Email Address": "",
-    "Name": "Shivank Sarin",
-    "LinkedIn Profile": "https://www.linkedin.com/in/shivanksarin/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "Last Position at Bodhi Capital": "Portfolio manager",
-    "Year when position was held": "2017-19",
-    "Year of Graduation (Batch - ex: 2016-19)": "2016-19",
-    "Current Company you work at": "Innoven Capital India",
-    "Designation at Current Company": "Senior Associate",
-    "Photo": ""
-  }
-]
+import pandas as pd
+
+
+def main():
+    data = pd.read_csv("./responses.csv")
+
+    column_renames = {
+        "Name": "name",
+        "About Me (~40 words)": "about_me",
+        "Position (2024-2025) (Optional)": "position",
+        "Linkedin": "linkedin",
+        "Phone": "phone",
+        "Personal Website": "website",
+        "Top 5 stocks (Separated by commas). Put upto 5, can be less than 5 too. (These are your favourite stocks)": "top_stocks",
+        "Have you had any internships? If yes, where did you work? (Need company name only)": "internships",
+        "Have you worked on a Stock pitch? If yes, which company have you worked on? (If more than one separate the companies with commas)": "stock_pitch",
+        "Have you worked on a book review? If yes, which books have you worked on? (If more than one separate the books with commas)": "book_review",
+        "Upload a photo of yourself. Please ensure only you are in the photo, and your face is well lit up.": "photo",
+    }
+
+    data.rename(columns=column_renames, inplace=True)
+
+    res = data[column_renames.values()]
+
+    res["photo"] = res["photo"].apply(lambda x: x.split("?id=")[-1])
+
+    res["name"] = res["name"].apply(lambda x: x.strip().title())
+
+    res = res[
+        (res["position"] != "")
+        & (res["position"].notnull())
+        & (res["position"].notna())
+    ]
+
+    res["position"] = res["position"].apply(
+        lambda x: str(x).strip().title() if x else ""
+    )
+
+    res["id"] = res["name"].apply(lambda x: x.lower().replace(" ", "-"))
+
+    res["top_stocks"] = res["top_stocks"].apply(lambda x: x.split(",") if x else [])
+    res["internships"] = res["internships"].apply(
+        lambda x: str(x).split(",") if x else []
+    )
+    res["stock_pitch"] = res["stock_pitch"].apply(lambda x: x.split(",") if x else [])
+    res["book_review"] = res["book_review"].apply(lambda x: x.split(",") if x else [])
+
+    res.to_csv("./processed.csv", index=False)
+    # print(res.to_dict('records'))
+    with open("./output.json", "w") as f:
+        f.write(res.to_json(orient="records"))
+
+
+if __name__ == "__main__":
+    main()
